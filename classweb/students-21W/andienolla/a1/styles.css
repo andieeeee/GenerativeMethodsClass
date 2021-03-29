@@ -1,0 +1,88 @@
+table, tr, td {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  background-color:rgb(220, 220, 220); 
+  background-size: 100% 100%;
+}
+
+.myButton{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  }
+
+#cats{
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  display:block;
+  text-align:center;
+  vertical-align: middle;
+  width:100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+  margin: 20px;
+}
+
+header {
+    background: linear-gradient(to bottom right, pink, plum, lightskyblue);
+    font-family: 'Lato', sans-serif;
+    color: #383838;
+  margin: 15px;
+}
+
+div.words{
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+div.top-nav {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  color: black;
+  padding-bottom: 50px;
+  text-decoration: none;
+  position: sticky;
+}
+
+/* Navigation links */
+div.top-nav a {
+  float: right;
+  font-size: 16px;
+  color: gainsboro;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  background-color: DimGrey;
+  font-family: 'Lato', sans-serif;
+}
+
+div.top-nav a:hover{
+  cursor: pointer;
+}
+
+img{
+  margin: 10px;
+}
+
+div.main{
+  margin: 20px;
+}
